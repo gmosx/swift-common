@@ -1,3 +1,3 @@
 # Common
 
-Basic data structure, protocols and utilities for Swift.
+Basic data structures, protocols and utilities for Swift.
