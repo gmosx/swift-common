@@ -1,3 +1,4 @@
+/// A job abstracts a batch computation.
 public protocol Job {
     func run()
 }
