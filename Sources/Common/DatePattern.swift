@@ -6,5 +6,6 @@ import Foundation
 /// A pattern that matches dates.
 public protocol DatePattern {
     func isMatching(_ date: Date, calendar: Calendar) -> Bool
-    func date(after startDate: Date, calendar: Calendar) -> Date?
+    func nextDate(after date: Date, calendar: Calendar) -> Date?
+//    func nextDateComponents(after dateComponents: DateComponents) -> DateComponents
 }
